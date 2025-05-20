@@ -17,9 +17,11 @@ body {
     }
 }
 
+/* header starts */
+
 .header_main {
     background: url(../images/hero_bg.jpg) no-repeat;
-    height: 100vh;
+    height: 860px;
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -139,6 +141,8 @@ body {
 }
 
 /* hero sec end */
+
+/* header section ends */
 
 /* whyshouldwork section start */
 
@@ -275,7 +279,7 @@ body {
     width: 475px;
 }
 
-.discover_content button{
+.discover_content button {
     background: rgba(231, 200, 115, 1);
     padding: 2px 30px;
     border-radius: 12px;
@@ -288,4 +292,73 @@ body {
     color: rgba(26, 26, 26, 1);
 
 }
+
 /* discover section ends */
+
+/* real estate section start */
+
+.real_estate_sec {
+    margin-top: 60px;
+}
+
+.real_estate_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.real_estate_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.real_estate_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    width: 557px;
+}
+
+.real_estate_content button {
+    border: 1px solid rgba(231, 200, 115, 1);
+    background: rgba(231, 200, 115, 1);
+    color: rgba(26, 26, 26, 1);
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.real_estate_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.real_estate_box .box{
+    width: 50%;
+}
+
+.real_estate_box h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 72px;
+}
+
+.real_estate_mix_content{
+    width: 50%;
+}
+
+.real_estate_img{
+    width: 50%;
+}
+
+/* real estate section ends */
