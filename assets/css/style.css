@@ -183,7 +183,7 @@ body {
 }
 
 .newyork{
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h36.jpg);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(assets/images/h36.jpg);
 }
 
 .chicago{
