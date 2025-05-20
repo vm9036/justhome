@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+.header_main {
+    background: url(../images/hero_bg.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
+}
+
+.header_main_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 142px;
+}
+
+.header_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30.4px;
+    text-transform: capitalize;
+}
+
+.header_menu ul li a i {
+    font-size: 13px;
+    position: relative;
+    top: -4px;
+}
+
+.header_contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_contact {
+    color: rgba(255, 255, 255, 1);
+}
+
+.usericon i {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 10px;
+}
+
+.header_contact button {
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: transparent;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* hero sec start */
+
+.hero_sec {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.hero_sec p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+}
+
+.hero_sec .dash {
+    position: relative;
+    top: 21px;
+}
+
+.hero_sec h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero_sec .dollar {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31.5px;
+}
+
+.hero_sec .month {
+    font-weight: 400;
+    font-size: 14.7px;
+    line-height: 22.05px;
+}
+
+.hero_sec button {
+    border: 1px solid rgba(231, 200, 115, 1);
+    background: rgba(231, 200, 115, 1);
+    color: rgba(26, 26, 26, 1);
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+/* hero sec end */
+
+/* whyshouldwork section start */
+
+.whyshouldwork_content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.whyshouldwork_content h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.whyshouldwork_content p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.whyshouldwork_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.whyshouldwork_cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    gap: 18px;
+    text-align: center;
+}
+
+.card .card_icon i {
+    font-size: 40px;
+}
+
+.whyshouldwork_cards .card h2 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25.2px;
+}
+
+.whyshouldwork_cards .card p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+}
+
+/* whyshouldwork section ends */
+
+/* signin section start  */
+
+.mainsignin_sec {
+    margin-top: 100px;
+    padding-inline: 135px;
+    background: rgba(31, 75, 67, 1);
+    border-radius: 16px;
+    height: 242px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainsignin_content h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mainsignin_content p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mainsignin_button button {
+    background: rgba(231, 200, 115, 1);
+    padding: 2px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(231, 200, 115, 1);
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 54px;
+    text-align: center;
+    color: rgba(31, 75, 67, 1);
+
+}
+
+/* signin section ends */
+
+/* discover section starts */
+
+.discover_sec {
+    margin-top: 100px;
+    background: url(../images/sec_discover_bg.jpg);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.discover_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.discover_content h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+}
+
+.discover_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    text-align: center;
+    width: 475px;
+}
+
+.discover_content button{
+    background: rgba(231, 200, 115, 1);
+    padding: 2px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(231, 200, 115, 1);
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 54px;
+    text-align: center;
+    color: rgba(26, 26, 26, 1);
+
+}
+/* discover section ends */
