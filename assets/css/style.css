@@ -144,6 +144,67 @@ body {
 
 /* header section ends */
 
+/* card section starts */
+
+.main_city_card_sec {
+    padding: 165px 0;
+}
+
+.city_card_sec_content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.city_card_sec_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.city_card_sec_content p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.city_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.city_card {
+    width: 256px;
+    height: 318px;
+    border-radius: 16px;
+}
+
+.newyork{
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h36.jpg);
+}
+
+.chicago{
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h37.jpg);
+}
+
+.losangles{
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h38.jpg);
+}
+
+.miami{
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h39.jpg);
+}
+
+.florida{
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h310.jpg);
+}
+
+
+/* card section ends */
+
 /* whyshouldwork section start */
 
 .whyshouldwork_content {
@@ -497,7 +558,7 @@ body {
     line-height: 32.3px;
 }
 
-.article_boxes{
+.article_boxes {
     display: flex;
     justify-content: center;
     align-items: center;
