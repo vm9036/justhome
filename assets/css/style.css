@@ -471,4 +471,84 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 /* company section ends */
+
+/* article section starts */
+
+.article_main {
+    padding: 160px 0;
+}
+
+.article_content {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.article_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.article_content p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+}
+
+.article_boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.article_box {
+    border: 1px solid rgba(233, 233, 233, 1);
+    border-radius: 16px;
+    width: 328px;
+    height: 387px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.article_box img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.article_box_content {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.article_box_content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    color: rgba(61, 62, 63, 1);
+}
+
+.article_box_content .dot img {
+    vertical-align: middle;
+    margin-inline: 7px;
+}
+
+.article_box_content h4 {
+    margin-top: 6px;
+    padding-inline: 40px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25.84px;
+}
+
+.article_box_content button {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    background: transparent;
+    border: none;
+    margin-top: 5px;
+}
+
+/* article section ends */
