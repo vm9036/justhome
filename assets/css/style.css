@@ -298,7 +298,7 @@ body {
 /* real estate section start */
 
 .real_estate_sec {
-    margin-top: 60px;
+    padding: 60px 0;
 }
 
 .real_estate_main {
@@ -343,7 +343,7 @@ body {
     margin-bottom: 20px;
 }
 
-.real_estate_box .box{
+.real_estate_box .box {
     width: 50%;
 }
 
@@ -353,12 +353,120 @@ body {
     line-height: 72px;
 }
 
-.real_estate_mix_content{
+.real_estate_mix_content {
     width: 50%;
 }
 
-.real_estate_img{
+.real_estate_img {
     width: 50%;
 }
 
 /* real estate section ends */
+
+/* customer review section starts */
+.customer_review_sec {
+    background: rgba(26, 26, 26, 1);
+    height: 594px;
+}
+
+.customer_review_main_sec {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer_review_content {
+    width: 50%;
+    padding-top: 227px;
+}
+
+.customer_review {
+    width: 50%;
+    padding-top: 165px;
+}
+
+.customer_review_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.customer_review_box {
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.customer_review_box .box h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33.8px;
+}
+
+.customer_review_box .box p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37.5px;
+}
+
+
+.customer_review_mix {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.customer_review_mix h3 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+}
+
+.customer_review_mix .design {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+}
+
+.customer_review_mix .quote {
+    margin-left: 195px;
+}
+
+.customer_content p {
+    margin-top: 30px;
+    width: 546px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 36.1px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.customer_review .button_right {
+    margin-left: 25px;
+}
+
+/* customer review section ends */
+
+/* company section starts */
+
+.company_sec {
+    background: rgba(26, 26, 26, 1);
+    height: 345px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company_main p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* company section ends */
