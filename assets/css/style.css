@@ -168,6 +168,8 @@ body {
     color: rgba(26, 26, 26, 1);
 }
 
+
+
 .city_cards {
     display: flex;
     justify-content: center;
@@ -182,23 +184,41 @@ body {
     border-radius: 16px;
 }
 
-.newyork{
+.city_card_content {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.city_card_content h4 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+}
+
+.city_card_content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+}
+
+.newyork {
     background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(../images/h36.jpg);
 }
 
-.chicago{
+.chicago {
     background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(../images/h37.jpg);
 }
 
-.losangles{
+.losangles {
     background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(../images/h38.jpg);
 }
 
-.miami{
+.miami {
     background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(../images/h39.jpg);
 }
 
-.florida{
+.florida {
     background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(../images/h310.jpg);
 }
 
