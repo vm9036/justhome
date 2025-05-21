@@ -85,6 +85,22 @@ body {
     text-align: center;
 }
 
+/* default: hide hamburger */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    border-radius: 2px;
+}
+
 /* hero sec start */
 
 .hero_sec {
@@ -250,6 +266,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
 }
@@ -551,6 +568,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* company section ends */
@@ -582,6 +600,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 

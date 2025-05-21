@@ -1,0 +1,131 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    /* header starts */
+
+    .header_menu,
+    .header_contact {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .header_main {
+        height: auto;
+    }
+
+    /* header ends */
+
+    /* hero section starts */
+
+    .hero_sec {
+        padding: 50px 15px;
+        margin-top: 0;
+    }
+
+    /* hero section ends */
+
+    /* city card section starts */
+    .main_city_card_sec {
+        padding: 90px 0;
+    }
+
+    /* city card section ends */
+
+    /* signin section start */
+
+    .mainsignin_sec {
+        padding: 15px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+        height: 300px;
+    }
+
+    .mainsignin_content p {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* signin section ends */
+
+    /* discover section start */
+
+    .discover_sec {
+        height: 550px;
+    }
+
+    .discover_content p {
+        width: 100%;
+    }
+
+    /* discover section start */
+
+    /* real estate section start */
+
+    .real_estate_main {
+        flex-direction: column;
+    }
+
+    .real_estate_mix_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .real_estate_content h2 {
+        width: 100%;
+    }
+
+    .real_estate_content p {
+        width: 100%;
+    }
+
+    .real_estate_box {
+        flex-wrap: wrap;
+    }
+
+    .real_estate_img {
+        margin-top: 20px;
+    }
+
+    .real_estate_img img {
+        width: 100%;
+    }
+
+    /* real estate section start */
+
+    /* customer review section starts */
+    .customer_review_sec {
+        padding: 50px 0;
+        height: auto;
+    }
+
+    .customer_review_main_sec {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .customer_review_content {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .customer_review {
+        padding-top: 0;
+    }
+
+    .customer_review_box {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    
+
+    /* customer review section ends */
+}
