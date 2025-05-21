@@ -793,3 +793,40 @@ body {
 }
 
 /* newsletter section ends */
+
+/* footer section starts */
+
+.footer_sec {
+    background: rgba(249, 249, 249, 1);
+    height: 117px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_main_sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_content {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer_icons i {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+/* footer section ends */
