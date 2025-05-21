@@ -700,11 +700,11 @@ body {
     gap: 15px;
 }
 
-.appstore_box{
+.appstore_box {
     width: 210px;
 }
 
-.playstore_box{
+.playstore_box {
     width: 195px;
 }
 
@@ -731,3 +731,65 @@ body {
 
 /* download app section ends */
 
+/* newsletter section starts */
+
+.newsletter_main_sec {
+    padding: 100px 0;
+}
+
+.newsletter_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.newsletter_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.newsletter_content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+}
+
+.newsletter_content .mailbox {
+    border: 1px solid rgba(235, 235, 235, 1);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 8px 8px 8px 31px;
+    border-radius: 60px;
+}
+
+.mailbox input {
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    width: 413px;
+}
+
+.mailbox input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: rgba(26, 26, 26, 1);
+}
+
+.mailbox button {
+    border: none;
+    background: none;
+    padding: 6px 27px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+}
+
+/* newsletter section ends */
