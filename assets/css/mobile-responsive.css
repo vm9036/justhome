@@ -28,6 +28,10 @@
         margin-top: 0;
     }
 
+    .hero_sec h1 {
+        font-size: 43px;
+    }
+
     /* hero section ends */
 
     /* city card section starts */
@@ -40,17 +44,21 @@
     /* signin section start */
 
     .mainsignin_sec {
-        padding: 15px;
+        padding: 25px 15px;
         text-align: center;
         flex-direction: column;
         justify-content: space-around;
         gap: 10px;
-        height: 300px;
+        height: auto;
     }
 
     .mainsignin_content p {
         margin-top: 20px;
         text-align: center;
+    }
+
+    .mainsignin_button button {
+        padding: 2px 20px;
     }
 
     /* signin section ends */
@@ -63,6 +71,10 @@
 
     .discover_content p {
         width: 100%;
+    }
+
+    .discover_content h1 {
+        font-size: 45px;
     }
 
     /* discover section start */
@@ -80,6 +92,16 @@
 
     .real_estate_content h2 {
         width: 100%;
+        font-size: 35px;
+    }
+
+    .real_estate_box{
+        margin-bottom: 0;
+    }
+
+    .real_estate_box .box {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .real_estate_content p {
@@ -91,7 +113,7 @@
     }
 
     .real_estate_img {
-        margin-top: 20px;
+        display: none;
     }
 
     .real_estate_img img {
@@ -108,7 +130,7 @@
 
     .customer_review_main_sec {
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
     }
 
     .customer_review_content {
@@ -125,7 +147,154 @@
         margin-top: 30px;
     }
 
-    
+    .customer_review_mix {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .customer_review_mix .quote {
+        margin-left: 0;
+    }
+
+    .customer_content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customer_slider {
+        text-align: center;
+    }
 
     /* customer review section ends */
+
+    /* company section starts */
+
+    .company_main p {
+        margin-bottom: 30px;
+    }
+
+    .company_logos {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    /* company section starts */
+
+    /* article section starts */
+    .article_main {
+        padding: 100px 0;
+    }
+
+    .article_box {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .article_box img {
+        width: 100%;
+    }
+
+    .article_box_content .dot img {
+        width: auto;
+    }
+
+    /* article section ends */
+
+    /* download app section starts */
+
+    .download_app_main {
+        padding-block: 0 50px;
+        height: auto;
+    }
+
+    .download_app_sec {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .download_app_content {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .download_app_content p {
+        width: 100%;
+        text-align: center;
+        padding-inline: 15px;
+    }
+
+    .download_boxes {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .download_app_img img {
+        width: 100%;
+    }
+
+    .appstore_box {
+        width: auto;
+    }
+
+    .playstore_box {
+        width: auto;
+    }
+
+    /* download app section ends */
+
+    /* newsletter section start */
+
+    .newsletter_main_sec {
+        padding: 50px 0;
+    }
+
+    .newsletter_content {
+        text-align: center;
+    }
+
+    .newsletter_content .mailbox {
+        border: none;
+        padding: 0;
+    }
+
+    .mailbox input {
+        width: 100%;
+        padding: 6px 27px;
+        border: 1px solid rgba(235, 235, 235, 1);
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        margin-bottom: 15px;
+    }
+
+    .mailbox button {
+        border: 1px solid rgba(235, 235, 235, 1);
+        border-radius: 16px;
+    }
+
+    .newsletter_content p {
+        text-align: center;
+    }
+
+    /* newsletter section ends */
+
+    /* footer section starts */
+    .footer_sec {
+        padding: 50px 0;
+        height: auto;
+    }
+
+    .footer_main_sec {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .footer_content {
+        font-size: 20px;
+    }
+
+    .footer_icons i {
+        font-size: 20px;
+    }
 }
