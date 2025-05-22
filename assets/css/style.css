@@ -10,11 +10,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 1400px;
-        margin: 0 auto;
-    }
+
+.container {
+    width: 100%;
+    max-width: 1400px; /* Added max-width for smaller desktops */
+    margin: 0 auto;
+    padding: 0 15px; /* Added padding for consistency */
 }
 
 /* header starts */
@@ -33,6 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 142px;
+    flex-wrap: wrap;
 }
 
 .header_menu ul {
@@ -607,7 +609,7 @@ body {
 .article_box {
     border: 1px solid rgba(233, 233, 233, 1);
     border-radius: 16px;
-    width: 328px;
+    width: 327px;
     height: 387px;
     background: rgba(255, 255, 255, 1);
 }
@@ -826,6 +828,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer_content {

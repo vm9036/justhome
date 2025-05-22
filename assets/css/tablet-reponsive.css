@@ -1,0 +1,446 @@
+/* Tablet Responsive Styles (768px to 1024px) */
+
+/* Portrait Orientation (e.g., 768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header_main {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .header_main_list {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .header_menu {
+        display: none; /* Hide menu by default, use hamburger */
+    }
+
+    .header_contact {
+        display: none; /* Hide contact info for simplicity */
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger menu */
+    }
+
+    .hero_sec {
+        padding: 40px 20px;
+        margin-top: 0;
+    }
+
+    .hero_sec h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero_sec p {
+        font-size: 16px;
+    }
+
+    /* City Card Section */
+    .main_city_card_sec {
+        padding: 100px 0;
+    }
+
+    .city_cards {
+        gap: 20px;
+    }
+
+    .city_card {
+        width: 45%; /* Two cards per row */
+        height: 280px;
+    }
+
+    /* Why Should Work Section */
+    .whyshouldwork_cards {
+        gap: 20px;
+    }
+
+    .whyshouldwork_cards .card {
+        width: 45%;
+    }
+
+    /* Signin Section */
+    .mainsignin_sec {
+        padding: 30px 20px;
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .mainsignin_content h2 {
+        font-size: 28px;
+    }
+
+    .mainsignin_content p {
+        width: 100%;
+    }
+
+    /* Discover Section */
+    .discover_sec {
+        height: 600px;
+    }
+
+    .discover_content h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .discover_content p {
+        width: 80%;
+    }
+
+    /* Real Estate Section */
+    .real_estate_main {
+        flex-direction: column;
+    }
+
+    .real_estate_mix_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .real_estate_content h2 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .real_estate_content p {
+        width: 100%;
+    }
+
+    .real_estate_box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .real_estate_box .box {
+        width: 45%;
+    }
+
+    .real_estate_img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .real_estate_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Customer Review Section */
+    .customer_review_sec {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .customer_review_main_sec {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .customer_review_content {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .customer_review {
+        padding-top: 0;
+    }
+
+    .customer_review_box {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .customer_content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customer_review_mix .quote {
+        margin-left: 0;
+    }
+
+    /* Company Section */
+    .company_sec {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .company_logos {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    /* Article Section */
+    .article_main {
+        padding: 100px 0;
+    }
+
+    .article_boxes {
+        gap: 20px;
+    }
+
+    .article_box {
+        width: 45%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .article_box img {
+        width: 100%;
+    }
+
+    /* Download App Section */
+    .download_app_main {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .download_app_sec {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .download_app_content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .download_app_content p {
+        width: 100%;
+    }
+
+    .download_boxes {
+        gap: 20px;
+    }
+
+    .download_box {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Newsletter Section */
+    .newsletter_main_sec {
+        padding: 60px 0;
+    }
+
+    .newsletter_content .mailbox {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .mailbox input {
+        width: 100%;
+    }
+
+    /* Footer Section */
+    .footer_sec {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .footer_main_sec {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Landscape Orientation (e.g., 992px to 1024px) */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    /* Header */
+    .header_main {
+        height: 700px;
+    }
+
+    .header_main_list {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .header_menu ul {
+        gap: 20px;
+    }
+
+    .header_menu ul li a {
+        font-size: 14px;
+    }
+
+    .header_contact {
+        gap: 15px;
+    }
+
+    .header_contact span {
+        font-size: 14px;
+    }
+
+    .header_contact button {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+
+    .hamburger {
+        display: none; /* Keep desktop menu in landscape */
+    }
+
+    .hero_sec {
+        margin-top: 60px;
+    }
+
+    .hero_sec h1 {
+        font-size: 55px;
+    }
+
+    /* City Card Section */
+    .main_city_card_sec {
+        padding: 120px 0;
+    }
+
+    .city_cards {
+        gap: 20px;
+    }
+
+    .city_card {
+        width: 30%;
+        height: 300px;
+    }
+
+    /* Why Should Work Section */
+    .whyshouldwork_cards {
+        gap: 20px;
+    }
+
+    .whyshouldwork_cards .card {
+        width: 30%;
+    }
+
+    /* Signin Section */
+    .mainsignin_sec {
+        padding: 40px 30px;
+        height: auto;
+    }
+
+    .mainsignin_content h2 {
+        font-size: 28px;
+    }
+
+    /* Discover Section */
+    .discover_sec {
+        height: 650px;
+    }
+
+    .discover_content h1 {
+        font-size: 55px;
+    }
+
+    .discover_content p {
+        width: 60%;
+    }
+
+    /* Real Estate Section */
+    .real_estate_main {
+        gap: 20px;
+    }
+
+    .real_estate_content h2 {
+        font-size: 38px;
+        width: 100%;
+    }
+
+    .real_estate_content p {
+        width: 100%;
+    }
+
+    .real_estate_box {
+        gap: 15px;
+    }
+
+    .real_estate_box .box {
+        width: 45%;
+    }
+
+    .real_estate_img img {
+        width: 100%;
+    }
+
+    /* Customer Review Section */
+    .customer_review_sec {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .customer_review_content {
+        padding-top: 100px;
+    }
+
+    .customer_review {
+        padding-top: 100px;
+    }
+
+    .customer_content p {
+        width: 80%;
+    }
+
+    /* Company Section */
+    .company_sec {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .company_logos {
+        gap: 15px;
+    }
+
+    /* Article Section */
+    .article_main {
+        padding: 120px 0;
+    }
+
+    .article_boxes {
+        gap: 20px;
+    }
+
+    .article_box {
+        width: 30%;
+    }
+
+    /* Download App Section */
+    .download_app_main {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .download_app_content {
+        padding-left: 30px;
+    }
+
+    .download_app_content p {
+        width: 80%;
+    }
+
+    /* Newsletter Section */
+    .newsletter_main_sec {
+        padding: 80px 0;
+    }
+
+    /* Footer Section */
+    .footer_sec {
+        height: auto;
+        padding: 50px 0;
+    }
+}

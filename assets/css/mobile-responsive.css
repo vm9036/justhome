@@ -30,6 +30,11 @@
 
     .hero_sec h1 {
         font-size: 43px;
+        overflow-wrap: break-word;
+    }
+
+    .hero_sec p {
+        overflow-wrap: break-word;
     }
 
     /* hero section ends */
