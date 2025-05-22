@@ -197,7 +197,7 @@ body {
 }
 
 .city_card {
-    width: 256px;
+    width: 250px;
     height: 318px;
     border-radius: 16px;
 }
@@ -609,7 +609,7 @@ body {
 .article_box {
     border: 1px solid rgba(233, 233, 233, 1);
     border-radius: 16px;
-    width: 327px;
+    width: 320px;
     height: 387px;
     background: rgba(255, 255, 255, 1);
 }
