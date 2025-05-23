@@ -461,6 +461,11 @@ body {
     width: 50%;
 }
 
+.real_estate_img img {
+    width: 100%;
+    height: auto;
+}
+
 /* real estate section ends */
 
 /* customer review section starts */

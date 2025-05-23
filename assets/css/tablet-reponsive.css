@@ -286,9 +286,10 @@
 }
 
 /* Landscape Orientation (e.g., 992px to 1024px) */
-@media screen and (min-width: 992px) and (max-width: 1024px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .container {
-        width: 960px; /* or width: 100%; */
+        width: 960px;
+        /* or width: 100%; */
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -303,7 +304,7 @@
         padding: 20px 0;
     }
 
-    .header_menu ul {
+    .header_menu {
         display: none;
     }
 
@@ -343,7 +344,7 @@
     }
 
     .city_card {
-        width: 30%;
+        width: 250px;
         height: 300px;
     }
 
@@ -360,6 +361,11 @@
     .mainsignin_sec {
         padding: 40px 30px;
         height: auto;
+        justify-content: space-around;
+    }
+
+    .mainsignin_content {
+        width: 60%;
     }
 
     .mainsignin_content h2 {
@@ -411,16 +417,22 @@
         padding: 80px 0;
     }
 
+    .customer_review_main_sec {
+        gap: 30px;
+    }
+
     .customer_review_content {
-        padding-top: 100px;
+        padding-top: 60px;
+        flex: 1;
     }
 
     .customer_review {
-        padding-top: 100px;
+        padding-top: 60px;
+        flex: 1;
     }
 
     .customer_content p {
-        width: 80%;
+        width: 100%;
     }
 
     /* Company Section */
@@ -439,12 +451,10 @@
     }
 
     .article_boxes {
-        gap: 20px;
+        gap: 30px;
     }
 
-    .article_box {
-        width: 30%;
-    }
+    
 
     /* Download App Section */
     .download_app_main {
@@ -452,12 +462,26 @@
         padding: 50px 0;
     }
 
+    .download_app_sec {
+       justify-content: center;
+    }
+
     .download_app_content {
-        padding-left: 30px;
+        padding-left: 0;
+        text-align: center;
+        width: 500px;
     }
 
     .download_app_content p {
-        width: 80%;
+        width: 100%;
+    }
+
+    .download_boxes {
+        justify-content: center;
+    }
+
+    .download_app_img {
+        display: none;
     }
 
     /* Newsletter Section */
